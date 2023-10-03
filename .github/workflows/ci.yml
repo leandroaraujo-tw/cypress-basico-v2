@@ -12,8 +12,5 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           config-file: cypress.config.js
-          parallel: true
-          group: 'UI - Chrome'
-          install-command: yarn --immutable
           browser: chrome
           headless: true
