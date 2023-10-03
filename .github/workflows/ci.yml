@@ -11,7 +11,7 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
-          config-file: cypress.config.ts
+          config-file: cypress.config.js
           record: true
           parallel: true
           group: 'UI - Chrome'
